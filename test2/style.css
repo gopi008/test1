@@ -1,0 +1,34 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+}
+
+.mainDiv{
+    display: flex;
+    justify-content: center;
+    height: 90vh;
+    align-items: center;
+}
+
+.container{
+    width: 600px;
+    height: 300px;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.shape{
+    width: 300px;
+    height: 60px;
+    background-color: black;
+}
+
+
+.order button{
+    padding: 10px 10px 10px 10px;
+    border-radius: 14px;
+}

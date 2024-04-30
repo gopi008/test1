@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>test</title>
+</head>
+<body>
+    <div class="mainDiv">
+        <div class="container">
+            <div class="shape" id="box()"></div>
+            <p>count =<span id="count"></span> </p>
+            
+            <div class="order">
+                <button id="click" onclick="increase()">
+                    click
+                </button >
+                <button id="reset" onclick="clear()">
+                    Reset
+                </button>
+                <button id="Red" onclick="turnRed()">
+                    Red
+                </button>
+                <button id="blue" onclick="turnBlue()">
+                    Blue
+                </button>
+            </div>
+        </div>    
+    </div>
+
+
+    <script>
+        function box(){
+            if(onclick==increase())
+            {
+                count+=1;
+            }
+            else if(onclick==clear()){
+                count=none;
+            }
+            else if(onclick==turnRed()){
+                box().background-color:red;
+            }
+            else{
+                box().background-color:blue;
+            }
+        }
+    </script>
+</body>
+</html>
