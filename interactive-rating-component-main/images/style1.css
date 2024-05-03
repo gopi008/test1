@@ -1,0 +1,20 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: hsl(216, 12%, 8%);
+}
+
+.mainContainer{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+.container{
+    border: none;
+    height: 350px;
+    width: 340px;
+    border-radius: 8px;
+    background-color:hsl(213, 19%, 18%);
+}
